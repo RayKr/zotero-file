@@ -1,15 +1,15 @@
 {
-  "name": "zotero-addon-template",
-  "version": "1.0.0",
-  "description": "Zotero Addon Template",
+  "name": "zotero-file",
+  "version": "0.2.8",
+  "description": "Zotero 7 Meet ZotFile",
   "config": {
-    "addonName": "Zotero Addon Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate",
-    "releasepage": "https://github.com/windingwind/zotero-addon-template/releases/latest/download/zotero-addon-template.xpi",
-    "updaterdf": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update.json"
+    "addonName": "Wandering File",
+    "addonID": "zoterofile@polygon.org",
+    "addonRef": "zoterofile",
+    "addonInstance": "ZoteroFile",
+    "prefsPrefix": "extensions.zotero.zoteromagic",
+    "releasepage": "https://github.com/muisedestiny/zotero-file/releases/latest/download/zotero-file.xpi",
+    "updaterdf": "https://raw.githubusercontent.com/muisedestiny/zotero-file/main/update.json"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -32,16 +32,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-addon-template.git"
+    "url": "git+https://github.com/muisedestiny/zotero-file.git"
   },
-  "author": "windingwind",
+  "author": "Polygon",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-addon-template/issues"
+    "url": "https://github.com/muisedestiny/zotero-file/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-addon-template#readme",
+  "homepage": "https://github.com/muisedestiny/zotero-file#readme",
   "dependencies": {
-    "zotero-plugin-toolkit": "^2.2.8"
+    "zotero-plugin-toolkit": "^2.2.9"
   },
   "devDependencies": {
     "@types/node": "^20.4.2",
@@ -51,7 +51,7 @@
     "compressing": "^1.9.0",
     "concurrently": "^8.2.0",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.19.2",
+    "esbuild": "^0.18.12",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.0",
